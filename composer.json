@@ -23,7 +23,8 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "phpunit/phpunit": "^11.4"
+        "phpunit/phpunit": "^11.4",
+        "marcocesarato/php-conventional-changelog": "^1.17"
     },
     "require": {
         "php": "^8.2"
@@ -33,10 +34,15 @@
             "php": "8.2"
         },
         "optimize-autoloader": true,
-        "allow-plugins": {
-        }
+        "allow-plugins": {}
     },
     "scripts": {
-        "tests": "vendor/bin/phpunit"
-    }
+        "tests": "vendor/bin/phpunit",
+        "changelog": "conventional-changelog",
+        "release": "conventional-changelog --commit",
+        "release:patch": "conventional-changelog --patch --commit",
+        "release:minor": "conventional-changelog --minor --commit",
+        "release:major": "conventional-changelog --major --commit"
+    },
+    "version": "1.0.0"
 }
