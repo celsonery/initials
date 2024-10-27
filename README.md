@@ -2,12 +2,12 @@
 A package utility to work with Initials Names, for show in front if the user do not have a picture.
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@celsonery-blue.svg?style=flat-square)](https://twitter.com/celsonery)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/celsonery/php-initials.svg?style=flat-square)](https://packagist.org/packages/celsonery/php-initials)
-[![Latest Version](https://img.shields.io/github/release/celsonery/php-initials.svg?style=flat-square)](https://github.com/celsonery/php-initials/releases)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/celsonery/initials.svg?style=flat-square)](https://packagist.org/packages/celsonery/initials)
+[![Latest Version](https://img.shields.io/github/release/celsonery/initials.svg?style=flat-square)](https://github.com/celsonery/initials/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/celsonery/php-initials.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/php-initials)
-[![Quality Score](https://img.shields.io/scrutinizer/g/celsonery/php-initials.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/php-initials)
-[![Total Downloads](https://img.shields.io/packagist/dt/celsonery/php-initials.svg?style=flat-square)](https://packagist.org/packages/ccelsonery/php-initials)
+[![Build](https://img.shields.io/scrutinizer/build/g/celsonery/initials.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/initials)
+[![Quality Score](https://img.shields.io/scrutinizer/g/celsonery/initials.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/initials)
+[![Total Downloads](https://img.shields.io/packagist/dt/celsonery/initials.svg?style=flat-square)](https://packagist.org/packages/ccelsonery/initials)
 
 ## Installation
 
