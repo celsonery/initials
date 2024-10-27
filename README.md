@@ -1,43 +1,41 @@
-# EANs Utility for PHP - by Celso Nery
-A package utility to work with EANs/GTINs, for validate and generate fake EANs
+# Utility for return Initials of Names in PHP - by Celso Nery
+A package utility to work with Initials Names, for show in front if the user do not have a picture.
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@celsonery-blue.svg?style=flat-square)](https://twitter.com/celsonery)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/celsonery/php-ean-utils.svg?style=flat-square)](https://packagist.org/packages/celsonery/php-ean-utils)
-[![Latest Version](https://img.shields.io/github/release/celsonery/php-ean-utils.svg?style=flat-square)](https://github.com/celsonery/php-ean-utils/releases)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/celsonery/php-initials.svg?style=flat-square)](https://packagist.org/packages/celsonery/php-initials)
+[![Latest Version](https://img.shields.io/github/release/celsonery/php-initials.svg?style=flat-square)](https://github.com/celsonery/php-initials/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/celsonery/php-ean-utils.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/php-ean-utils)
-[![Quality Score](https://img.shields.io/scrutinizer/g/celsonery/php-ean-utils.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/php-ean-utils)
-[![Total Downloads](https://img.shields.io/packagist/dt/celsonery/php-ean-utils.svg?style=flat-square)](https://packagist.org/packages/ccelsonery/php-ean-utils)
+[![Build](https://img.shields.io/scrutinizer/build/g/celsonery/php-initials.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/php-initials)
+[![Quality Score](https://img.shields.io/scrutinizer/g/celsonery/php-initials.svg?style=flat-square)](https://scrutinizer-ci.com/g/celsonery/php-initials)
+[![Total Downloads](https://img.shields.io/packagist/dt/celsonery/php-initials.svg?style=flat-square)](https://packagist.org/packages/ccelsonery/php-initials)
 
 ## Installation
 
 This package available by Composer:
 
 ```bash
-"celsonery/php-ean-utils": "^1.3"
+"celsonery/initials": "^1.0"
 ```
 
 or run
 
 ```bash
-composer require celsonery/php-ean-utils
+composer require celsonery/initials
 ```
 
 ## How to use
 
 In your class import this trait
 ```php
-use CelsoNery\EanUtils\Services\Traits\EanUtil;
+use CelsoNery\EanUtils\Services\Traits\Initials;
 
 class YourClassName
 {
-    use EanUtil;
+    use Initials;
     
     public function yourMethod()
     {
-        if ($this->isValid("7898114289779")) {
-            // Do something
-        }
+        $initials = $this->getInitials("User Name"));
     }
 }
 ```
@@ -56,7 +54,7 @@ Thank you
 ## Credits
 
 - [Celso Nery](https://github.com/celsonery) (Maintainer/Developer)
-- [All Contributors](https://github.com/celsonery/php-ean-utils/contributors)
+- [All Contributors](https://github.com/celsonery/php-initial/contributors)
 
 ## License
 

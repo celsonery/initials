@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions are **welcome** via Pull Requests on [Github](https://github.com/celsonery/php-ean-utils).
+Contributions are **welcome** via Pull Requests on [Github](https://github.com/celsonery/php-initials).
 
 An interesting read is [Contributing to a Github Project](http://jasonlewis.me/article/contributing-to-a-github-project).
 
