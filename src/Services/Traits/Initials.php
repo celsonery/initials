@@ -20,10 +20,6 @@ trait Initials
             return $this->getInitialsFullName($nameArr[0], $nameArr[1]);
         }
 
-        if (mb_strlen($lastName)) {
-            return $this->getInitialsFullName($firstName, $lastName);
-        }
-
         return $this->getInitialsFirstName($firstName);
     }
 
